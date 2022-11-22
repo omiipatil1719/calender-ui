@@ -11,3 +11,143 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cantainer{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(238, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-cantainer{
+  width:29%;
+  height: 80vh;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  
+}
+.date-cantainer{
+  height: 40%;
+  width: 100%;
+  background-color:black;
+}
+
+.calender-cantainer{
+  height: 60%;
+  width: 100%;
+  background-color:black;
+}
+.date-year{
+  color: white;
+  font-size: 2vw;
+  font-weight: 600;
+  margin-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.today-date{
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: rgb(228, 224, 224);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 20px;
+
+}
+
+.Tomorrow{
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: rgb(228, 224, 224);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 20px;
+}
+
+.Next-week{
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: rgb(228, 224, 224);
+  font-size: 16px;
+  width: 100%;
+  height: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.No-Date{
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: rgb(228, 224, 224);
+  font-size: 16px;
+  width: 100%;
+  height: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.calender{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.calendar-react{
+  background-color: black !important;
+  color: white !important;
+  border: none !important;
+}
+.calendar-react button abbr{
+  color: #fff !important;
+  opacity: 0.9;
+}
+.calendar-react .react-calendar__month-view__weekdays__weekday abbr{
+  text-decoration: none !important;
+  opacity: 0.4;
+  font-weight: 200 !important;
+  font-family:sans-serif !important;
+}
+.calendar-react button {
+  border-radius: 50% !important;
+  /* background-color: rgb(108, 173, 108) !important; */
+}
+
+.date-cantainer .paraClass{
+  font-size:1.1vw  !important;
+}
+.react-calendar button:enabled:hover{
+  background-color: rgb(126, 121, 121) !important;
+  color: black !important;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 0.75em !important;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ffffa9 !important;
+}
+
+.innerClass{
+  margin-Left: "20px";
+   margin-Right: "10px";
+}
+.Tomorrowinner{
+  margin-Left: "20px";
+   margin-Right: "20px";
+   margin-Top: "20px"
+}
+.next-weekinnerClass{
+  margin-Left: "20px";
+   margin-Right: "20px";
+   margin-Top: "30px";
+}
